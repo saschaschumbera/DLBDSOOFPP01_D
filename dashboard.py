@@ -345,7 +345,7 @@ class KPICalculator:
     """
 
     _ZIEL_NOTE: float  = 2.0   # Notenziel aus der Konzeptionsphase
-    _ZIEL_QUOTE: float = 80.0  # Mindest-Bestehensquote in Prozent
+    _ZIEL_QUOTE: float = 90.0  # Ziel für die Erstversuchs-Bestehensquote in Prozent
 
     def regelstudienzeit_kpi(self, sg: Studiengang) -> RegelstudienzeitKpi:
         """Verbleibende Monate bis zum geplanten Studienabschluss (datumsbasiert)."""
@@ -397,17 +397,35 @@ class KPICalculator:
         )
 
     def bestehensquote_kpi(self, sg: Studiengang) -> BestehensquoteKpi:
-        """Anteil bestandener Module an allen geprüften Modulen."""
-        geprueft = [m for s in sg.semester for m in s.module if m.pruefungsleistungen]
-        if not geprueft:
+        """Anteil bestandener Erstversuche an allen Modulen mit Erstversuch."""
+        module_mit_erstversuch: list[Modul] = []
+        bestandene_erstversuche = 0
+
+        for sem in sg.semester:
+            for modul in sem.module:
+                if not modul.pruefungsleistungen:
+                    continue
+
+                # Fuer die KPI zaehlt ausschliesslich der erste dokumentierte Versuch.
+                erster_versuch = min(
+                    modul.pruefungsleistungen,
+                    key=lambda pl: (pl.versuch, pl.datum),
+                )
+                if erster_versuch.versuch != 1:
+                    continue
+
+                module_mit_erstversuch.append(modul)
+                if erster_versuch.ist_bestanden():
+                    bestandene_erstversuche += 1
+
+        if not module_mit_erstversuch:
             quote, erreicht = 0.0, False
         else:
-            bestanden = sum(1 for m in geprueft if m.ist_bestanden())
-            quote = bestanden / len(geprueft) * 100
+            quote = bestandene_erstversuche / len(module_mit_erstversuch) * 100
             erreicht = quote >= self._ZIEL_QUOTE
         check = " ✓" if erreicht else ""
         return BestehensquoteKpi(
-            titel="Bestehensquote",
+            titel="Erstversuchsquote",
             hauptwert=f"{quote:.0f} %",
             zielhinweis=f"Ziel: ≥ {self._ZIEL_QUOTE:.0f} %{check}",
             ziel_erreicht=erreicht,
