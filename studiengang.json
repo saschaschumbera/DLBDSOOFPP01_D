@@ -1,0 +1,417 @@
+{
+  "name": "B.Sc. Angewandte Künstliche Intelligenz",
+  "gesamt_ects": 180,
+  "regelstudienzeit": 6,
+  "semester": [
+    {
+      "nummer": 1,
+      "startdatum": "2024-10-01",
+      "enddatum": "2025-03-31",
+      "module": [
+        {
+          "typ": "Modul",
+          "name": "Einführung in die Programmierung",
+          "modulnummer": "DLBINGEINP01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 1.7,
+              "datum": "2025-01-15",
+              "versuch": 1
+            },
+            {
+              "note": 1.3,
+              "datum": "2026-04-13",
+              "versuch": 2
+            },
+            {
+              "note": 1.7,
+              "datum": "2026-04-13",
+              "versuch": 3
+            },
+            {
+              "note": 1.5,
+              "datum": "2026-04-13",
+              "versuch": 3
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Mathematik: Analysis",
+          "modulnummer": "DLBMAMATH01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 2.3,
+              "datum": "2025-01-20",
+              "versuch": 1
+            },
+            {
+              "note": 1.7,
+              "datum": "2026-04-13",
+              "versuch": 2
+            },
+            {
+              "note": 1.5,
+              "datum": "2026-04-13",
+              "versuch": 3
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Wissenschaftliches Arbeiten und Recherche",
+          "modulnummer": "DLBWIA01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 1.3,
+              "datum": "2024-12-10",
+              "versuch": 1
+            },
+            {
+              "note": 1.0,
+              "datum": "2026-04-13",
+              "versuch": 2
+            },
+            {
+              "note": 1.5,
+              "datum": "2026-04-13",
+              "versuch": 3
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Grundlagen der Informatik",
+          "modulnummer": "DLBINGINF01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 2.0,
+              "datum": "2025-01-22",
+              "versuch": 1
+            },
+            {
+              "note": 1.6,
+              "datum": "2026-04-13",
+              "versuch": 2
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Technische Informatik",
+          "modulnummer": "DLBINGTHI01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 2.7,
+              "datum": "2025-02-05",
+              "versuch": 1
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Einführung in akademisches Schreiben",
+          "modulnummer": "DLBEWA02",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 1.7,
+              "datum": "2024-12-18",
+              "versuch": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nummer": 2,
+      "startdatum": "2025-04-01",
+      "enddatum": "2025-09-30",
+      "module": [
+        {
+          "typ": "Modul",
+          "name": "Objektorientierte und funktionale Programmierung mit Python",
+          "modulnummer": "DLBDSOOFPP01",
+          "ects": 5,
+          "status": "In Bearbeitung",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Datenbanken",
+          "modulnummer": "DLBINGDB01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 2.0,
+              "datum": "2025-06-15",
+              "versuch": 1
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Mathematik: Lineare Algebra",
+          "modulnummer": "DLBMAMATH02",
+          "ects": 5,
+          "status": "Nicht bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 5.0,
+              "datum": "2025-05-20",
+              "versuch": 1
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Webentwicklung",
+          "modulnummer": "DLBINWWE01",
+          "ects": 5,
+          "status": "Bestanden",
+          "pruefungsleistungen": [
+            {
+              "note": 1.7,
+              "datum": "2025-07-10",
+              "versuch": 1
+            }
+          ]
+        },
+        {
+          "typ": "Modul",
+          "name": "Algorithmen und Datenstrukturen",
+          "modulnummer": "DLBINGALGO01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Betriebssysteme",
+          "modulnummer": "DLBINGBS01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        }
+      ]
+    },
+    {
+      "nummer": 3,
+      "startdatum": "2025-10-01",
+      "enddatum": "2026-03-31",
+      "module": [
+        {
+          "typ": "Modul",
+          "name": "Software Engineering I",
+          "modulnummer": "DLBINGSE01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "KI und maschinelles Lernen I",
+          "modulnummer": "DLBDSML01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Datenschutz und IT-Sicherheit",
+          "modulnummer": "DLBINGDPIT01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Statistik und Wahrscheinlichkeitsrechnung",
+          "modulnummer": "DLBINGSTAT01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Cloud Computing",
+          "modulnummer": "DLBDSCC01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Projektmanagement",
+          "modulnummer": "DLBINPM01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        }
+      ]
+    },
+    {
+      "nummer": 4,
+      "startdatum": "2026-04-01",
+      "enddatum": "2026-09-30",
+      "module": [
+        {
+          "typ": "Modul",
+          "name": "Software Engineering II",
+          "modulnummer": "DLBINGSE02",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Big Data und Datenmanagement",
+          "modulnummer": "DLBDSBD01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Agiles Projektmanagement",
+          "modulnummer": "DLBINAGP01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "DevOps und Continuous Delivery",
+          "modulnummer": "DLBINGDVP01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Mobile App-Entwicklung",
+          "modulnummer": "DLBINGMAD01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Softwaretesting und Qualitätssicherung",
+          "modulnummer": "DLBINGQST01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        }
+      ]
+    },
+    {
+      "nummer": 5,
+      "startdatum": "2026-10-01",
+      "enddatum": "2027-03-31",
+      "module": [
+        {
+          "typ": "Modul",
+          "name": "Verteilte Systeme",
+          "modulnummer": "DLBINGVS01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Semesterprojekt Software Engineering",
+          "modulnummer": "DLBINGSEM01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Datenbankmanagement",
+          "modulnummer": "DLBINGDBM01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "IT-Recht und Compliance",
+          "modulnummer": "DLBINGITR01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "UI/UX Design",
+          "modulnummer": "DLBINGUIX01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Business Intelligence",
+          "modulnummer": "DLBDSBI01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        }
+      ]
+    },
+    {
+      "nummer": 6,
+      "startdatum": "2027-04-01",
+      "enddatum": "2027-09-30",
+      "module": [
+        {
+          "typ": "Modul",
+          "name": "Softwarearchitektur und Design Patterns",
+          "modulnummer": "DLBINGSA01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "IT-Entrepreneurship",
+          "modulnummer": "DLBINGENT01",
+          "ects": 5,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Modul",
+          "name": "Kolloquium und Praxisprojekt",
+          "modulnummer": "DLBINGKOL01",
+          "ects": 8,
+          "status": "Geplant",
+          "pruefungsleistungen": []
+        },
+        {
+          "typ": "Abschlussarbeit",
+          "name": "Bachelorarbeit",
+          "modulnummer": "DLBABSCHLUSSB01",
+          "ects": 12,
+          "status": "Geplant",
+          "pruefungsleistungen": [],
+          "thema": "",
+          "betreuer": ""
+        }
+      ]
+    }
+  ]
+}

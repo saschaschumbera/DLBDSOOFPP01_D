@@ -1,0 +1,12 @@
+Feedback des Tutors
+Bitte hier das Feedback eintragen:
+
+Ziele: klar definiert
+Dashboard: übersichtlich und intuitiv
+UML
+status sollte Enum sein
+Laut UML könnte jedes Semester beliebig viele Abschlussarbeiten haben. Bitte klar dokumenteiren, dass Abschlussarbeit ist ein Spezialfall von Modul ist.
+Getter und Setter werden nicht im UML-Klassendiagramm modelliert, da sie Implementierungsdetails darstellen. In der späteren Python-Umsetzung können diese über @property realisiert werden.
+Die Methode get_note() ist fachlich der Klasse Prüfungsleistung zuzuordnen, da dort die Note gespeichert ist (Information Expert Prinzip). Eine Platzierung in Modul würde zu unnötiger Kopplung zwischen den Klassen führen. Eine Weitergabe der Note über Modul ist höchstens als abgeleitete fachliche Methode denkbar, jedoch nicht als einfacher Getter.
+Gutes Modell!
+Machbarkeit: plausibel!
