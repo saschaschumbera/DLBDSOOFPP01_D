@@ -1431,7 +1431,7 @@ _JSON_PFAD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "studienga
 _FALLBACK_DATEN: dict = {
     "name": "B.Sc. Angewandte Künstliche Intelligenz",
     "gesamt_ects": 180,
-    "regelstudienzeit": 6,
+    "regelstudienzeit": 8,
     "semester": [
         {
             "nummer": 1,

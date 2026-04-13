@@ -417,6 +417,18 @@
           "betreuer": ""
         }
       ]
+    },
+    {
+      "nummer": 7,
+      "startdatum": "2028-10-01",
+      "enddatum": "2029-03-31",
+      "module": []
+    },
+    {
+      "nummer": 8,
+      "startdatum": "2029-04-01",
+      "enddatum": "2029-10-31",
+      "module": []
     }
   ]
 }
