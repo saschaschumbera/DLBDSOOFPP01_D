@@ -1,7 +1,7 @@
 {
   "name": "B.Sc. Angewandte Künstliche Intelligenz",
   "gesamt_ects": 180,
-  "regelstudienzeit": 6,
+  "regelstudienzeit": 8,
   "semester": [
     {
       "nummer": 1,
@@ -101,6 +101,11 @@
               "note": 1.6,
               "datum": "2026-04-13",
               "versuch": 2
+            },
+            {
+              "note": 1.4,
+              "datum": "2026-04-13",
+              "versuch": 3
             }
           ]
         },
